@@ -21,8 +21,10 @@
             unicode-range: U+4E00-9FFF;
         }
 
-        * {
+        html, body, * {
             font-family: ${customFont} !important;
+            background-color: #0A0F14 !important;
+            color: #C8CCD0 !important;
         }
 
         h1 {
@@ -30,7 +32,7 @@
             font-size: 2rem !important;
         }
 
-        #txt {
+        .content, #mycontent, #txt {
             font-size: 26px;
             line-height: 60px !important;
         }
